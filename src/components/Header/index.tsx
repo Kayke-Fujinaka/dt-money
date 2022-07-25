@@ -1,10 +1,13 @@
 import logoImg from "../../assets/logo.svg"
+import * as S from "./styles"
 
 export function Header() {
     return (
-        <header>
+        <S.Container>
+            <S.Content>
             <img src={logoImg} alt="icon dt money" />
             <button type="button">Nova Transação</button>
-        </header>
+            </S.Content>
+        </S.Container>
     )
 }
