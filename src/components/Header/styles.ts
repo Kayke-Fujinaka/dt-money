@@ -10,8 +10,6 @@ export const Content = styled.div`
   justify-content: space-between;
   padding: 2rem 5rem 10rem;
   margin: 8 auto;
-;
-
   button {
     height: 3rem;
     padding: 0 2rem;

@@ -5,7 +5,7 @@ export const Container = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: -7.5rem;
-  
+
   div {
     padding: 1.5rem 2rem;
     color: var(--text-title);
@@ -13,22 +13,22 @@ export const Container = styled.div`
     border-radius: 0.25rem;
 
     header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    
+
     strong {
-        display: inline-block;
-        margin-top: 1rem;
-        font-size: 2rem;
-        font-weight: 500;
-        line-height: 3rem;
+      display: inline-block;
+      margin-top: 1rem;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 3rem;
     }
 
     &.highlight-background {
-        background-color: var(--green);
-        color: var(--shape);
+      background-color: var(--green);
+      color: var(--shape);
     }
   }
 `;
