@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   background: var(--blue);
-  padding: 2rem 5rem 12rem;
-  margin: 8 auto;
 `;
 
 export const Content = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem 5rem 12rem;
+  margin: 8 auto;
 ;
 
   button {
