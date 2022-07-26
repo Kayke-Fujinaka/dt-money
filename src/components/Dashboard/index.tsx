@@ -1,7 +1,7 @@
 import { Summary } from "../Summary";
 import * as S from "./styles";
 
-export function Header() {
+export function Dashboard() {
   return (
     <S.Container>
       <Summary/>
