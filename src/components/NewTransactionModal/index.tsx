@@ -33,11 +33,21 @@ export function NewTransactionModal(props: NewTransactionModalProps) {
         <input placeholder="Título" />
         <input placeholder="Valor" type="number" />
         <S.TransactionTypeContainer>
-          <S.RadioBox type="button" isActive={type === "deposit"} onClick={() => setType('deposit')}>
+          <S.RadioBox
+            type="button"
+            isActive={type === "deposit"}
+            onClick={() => setType("deposit")}
+            activeColor="green"
+          >
             <img src={incomeImg} alt="Entrada" />
             <span>Entrada</span>
           </S.RadioBox>
-          <S.RadioBox type="button" isActive={type === "withdraw"} onClick={() => setType('withdraw')}>
+          <S.RadioBox
+            type="button"
+            isActive={type === "withdraw"}
+            onClick={() => setType("withdraw")}
+            activeColor="red"
+          >
             <img src={outcomeImg} alt="Saída" />
             <span>Saída</span>
           </S.RadioBox>
