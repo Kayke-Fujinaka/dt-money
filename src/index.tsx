@@ -14,29 +14,29 @@ createServer({
         {
           id: 1,
           title: "Freelance de Website",
-          type: 'deposit',
-          category: 'Dev',
+          type: "deposit",
+          category: "Dev",
           amount: 620,
-          createdAt: new Date('2022-02-12 09:06:20')
+          createdAt: new Date("2022-02-12 09:06:20"),
         },
         {
           id: 2,
           title: "Aluguel",
-          type: 'withdraw',
-          category: 'Casa',
+          type: "withdraw",
+          category: "Casa",
           amount: 1200,
-          createdAt: new Date('2022-02-25 17:23:00')
+          createdAt: new Date("2022-02-25 17:23:00"),
         },
         {
           id: 3,
           title: "Burguer Mania",
-          type: 'withdraw',
-          category: 'Alimentação',
+          type: "withdraw",
+          category: "Alimentação",
           amount: 43,
-          createdAt: new Date('2022-03-02 18:49:07')
+          createdAt: new Date("2022-03-02 18:49:07"),
         },
-      ]
-    })
+      ],
+    });
   },
 
   routes() {
