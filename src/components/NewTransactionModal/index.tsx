@@ -6,6 +6,8 @@ import outcomeImg from "../../assets/outcome.svg";
 import { api } from "../../services/api";
 import * as S from "./styles";
 
+Modal.setAppElement("#root");
+
 interface NewTransactionModalProps {
   isOpen: boolean;
   onRequestClose: () => void;
