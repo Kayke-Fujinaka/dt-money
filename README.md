@@ -21,7 +21,7 @@ O site se chama DT Money e ele consegue registrar transações fictícias. Nele 
 :heavy_check_mark: Transação na API\
 :heavy_check_mark: Listando Transação e Seeds\
 :heavy_check_mark: Formatando os Valores\
-:heavy_check_mark: Context API
+:heavy_check_mark: Context API\
 :heavy_check_mark: Carregando as Transações com Contexto\
 :heavy_check_mark: Inserção Context\
 :heavy_check_mark: Resumo do Summary\
