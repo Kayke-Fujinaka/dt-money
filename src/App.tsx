@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { TransactionsProvider } from "./context/TransactionContext";
+import { TransactionsProvider } from "./hooks/useTransaction";
 import { Header } from "./components/Header";
 import { NewTransactionModal } from "./components/NewTransactionModal";
 import { Dashboard } from "./components/Dashboard";
