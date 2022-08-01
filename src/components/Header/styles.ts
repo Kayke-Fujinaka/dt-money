@@ -12,7 +12,7 @@ export const Content = styled.div`
   margin: 8 auto;
   button {
     height: 3rem;
-    padding: 0 2rem;
+    padding-inline: 2rem;
     font-size: 1rem;
     color: #fff;
     background: var(--blue-light);
@@ -22,5 +22,30 @@ export const Content = styled.div`
     &hover {
       filter: brightness(0.9);
     }
+
+    @media (max-width: 500px) {
+      padding-inline: 0.5rem;
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (max-width: 900px) {
+    padding-bottom: 20rem;
+
+    img {
+      width: 130px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    padding-inline: 1.25rem;
+
+    img {
+      width: 110px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    padding-bottom: 12.5rem;
   }
 `;

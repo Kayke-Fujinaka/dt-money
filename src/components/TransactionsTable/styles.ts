@@ -34,5 +34,29 @@ export const Container = styled.div`
         color: var(--red);
       }
     }
+
+    @media (max-width: 900px) {
+      tr {
+        font-size: 0.9rem;
+      }
+      td {
+        padding: 0.75rem 1.75rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      td {
+        padding: 0.5rem 1rem;
+      }
+    }
+
+    @media (max-width: 425px) {
+      tr {
+        font-size: 0.8rem;
+      }
+      td {
+        padding: 0.35rem;
+      }
+    }
   }
 `;

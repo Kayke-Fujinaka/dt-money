@@ -24,11 +24,11 @@ export const GlobalStyle = createGlobalStyle`
 
     html {
         @media (max-width: 1080px) {
-            font-size: 93.75%; // 15px
+            font-size: 85%;
         }
 
         @media (max-width: 720px) {
-            font-size: 87.5%;  // 14px
+            font-size: 80%;
         }
     }
 
@@ -74,6 +74,10 @@ export const GlobalStyle = createGlobalStyle`
         padding: 3rem;
         background-color: var(--background);
         border-radius: 0.25rem;
+
+        @media (max-width: 600px) {
+            max-width: 350px;
+        }
     }
 
     .react-modal-close {
