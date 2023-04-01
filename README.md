@@ -1,34 +1,34 @@
 <h1 align="center">💸 DT Money</h1>
 
-<img src="./src/assets/img.jpeg" alt="Descrição da imagem">
+<img src="./src/assets/img.jpeg" alt="Image description">
 
-> 🔎 Site do DT Money feito no curso da Rocketseat
+> 🔎 DT Money website made in Rocketseat course
 
-## :page_facing_up: Explicação
+## :page_facing_up: Explanation
 
-O site se chama DT Money e ele consegue registrar transações fictícias. Nele foi ensinado e implementado o conceito de FAKE API, funcionalidades com styled components, uso de contexto e hooks.
+The site is called DT Money and it manages to record fictitious transactions. It taught and implemented the concept of FAKE API, functionalities with styled components, use of context and hooks.
 
-## 🎯 Etapas
+## 🎯 Steps
 
-:heavy_check_mark: Componente Header\
-:heavy_check_mark: Componente Dashboard\
-:heavy_check_mark: Componente Summary\
-:heavy_check_mark: Componente Transaction Table\
-:heavy_check_mark: Consumindo API com MirageJS\
-:heavy_check_mark: Componente New Transaction Modal\
-:heavy_check_mark: Funcionalidades do Botão do Modal\
-:heavy_check_mark: Salvando Dados do Formulário\
-:heavy_check_mark: Transação na API\
-:heavy_check_mark: Listando Transação e Seeds\
-:heavy_check_mark: Formatando os Valores\
+:heavy_check_mark: Header component\
+:heavy_check_mark: Dashboard component\
+:heavy_check_mark: Component Summary\
+:heavy_check_mark: Transaction Table component\
+:heavy_check_mark: Consuming API with MirageJS\
+:heavy_check_mark: New Transaction Modal Component\
+:heavy_check_mark: Modal Button Features\
+:heavy_check_mark: Saving Form Data\
+:heavy_check_mark: Transaction in API\
+:heavy_check_mark: Listing Transaction and Seeds\
+:heavy_check_mark: Formatting Values\
 :heavy_check_mark: Context API\
-:heavy_check_mark: Carregando as Transações com Contexto\
-:heavy_check_mark: Inserção Context\
-:heavy_check_mark: Resumo do Summary\
-:heavy_check_mark: Criando um Hook\
-:heavy_check_mark: Projeto Finalizado
+:heavy_check_mark: Loading Transactions with Context\
+:heavy_check_mark: Insert Context\
+:heavy_check_mark: Summary Summary\
+:heavy_check_mark: Creating a Hook\
+:heavy_check_mark: Finished Project
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
 - [ReactJs](https://pt-br.reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs/)
@@ -36,43 +36,43 @@ O site se chama DT Money e ele consegue registrar transações fictícias. Nele 
 - [Polished](https://polished.js.org/docs/)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 
-## 📡 API'𝘀 usadas na aplicação
+## 📡 API'𝘀 used in the application
 
 - 🐪 [MirageJs](https://miragejs.com/docs/getting-started/introduction/)
 
-## :closed_book: Como usar?
+## :closed_book: How to use it?
 
-Antes de iniciar, você precisa ter [Git](https://git-scm.com) e [Node](https://nodejs.org/en/) instalados.
+Before starting, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ```bash
 # Clone this project
-$ git clone LINK DO SEU REPOSITÓRIO
-# Access
-$ cd NOME DA SUA PASTA
-# Install dependencies
+$ git clone YOUR REPOSITORY LINK
+# access
+$ cd YOUR FOLDER NAME
+# install dependencies
 $ yarn or npm
 # Run the project
 $ yarn start or npm start
 # The server will initialize in the <http://localhost:3000>
 ```
 
-## 🤝 Colaboradores
+## 🤝 Collaborators
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Thanks to the following people who contributed to this project:
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/98772000?s=400&u=80de9af672be7f75cc7a546838552cf63d5b82fe&v=4" width="160px;" alt="Foto do Kayke Fujinaka no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/98772000?s=400&u=80de9af672be7f75cc7a546838552cf63d5b82fe&v=4" width="160px;" alt="Photo by Kayke Fujinaka on GitHub"/><br>
         <sub>
           <b>Kayke Fujinaka</b>
         </sub>
       </a>
-    </td>
+    </all>
   </tr>
 </table>
 
 &#xa0;
 
-<a href="#top">Volte para o topo</a>
+<a href="#top">Go back to top</a>
